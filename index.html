@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Selectors</title>
+
+</head>
+
+
+
+
+<body>
+    <h1>CSS Selectors Reference</h1>
+
+    <h2>CSS Selectors </h2>
+
+    <table>
+        <tr>
+            <th>Selector</th>
+            <th>Example</th>
+            <th>Example description</th>
+        </tr>
+        <tr>
+            <td>.class</td>
+            <td>.intro</td>
+            <td>Selects all elements with class="intro"</td>
+        </tr>
+        <tr>
+            <td>#id</td>
+            <td>#firstname</td>
+            <td>Selects the element with id="firstname"</td>
+        </tr>
+        <tr>
+            <td>element</td>
+            <td>p</td>
+            <td>Selects all &lt;p&gt; elements</td>
+        </tr>
+        <tr>
+            <td>attribute</td>
+            <td>{target}</td>
+            <td>Selects all elements with a target attribute</td>
+        </tr>
+        <tr>
+            <td>element,element</td>
+            <td>div, &lt;p&gt;</td>
+            <td>Selects all div elements and all &lt;p&gt; elements</td>
+        </tr>
+        <tr>
+            <td>element element</td>
+            <td>div p</td>
+            <td>Selects all &lt;p&gt; elements inside
+                <div> elements
+            </td>
+        </tr>
+    </table>
+
+    <h1>CSS Combinators Reference</h1>
+
+    <h2 class="title">Combinators</h2>
+
+    <table class="table2">
+        <tr>
+            <th>Selector</th>
+            <th>Example description</th>
+        </tr>
+        <tr>
+            <td>descendant selector (space)</td>
+            <td>The descendant selector matches all elements that are descendants of a specified element</td>
+        </tr>
+        <tr>
+            <td>child selector (>)</td>
+            <td>The child selector matches all elements that are children of a specified element</td>
+        </tr>
+        <tr>
+            <td>adjacent sibling selector (+)</td>
+            <td>The adjacent sibling selector matches all elements that are the adjacent siblings of a specified element
+            </td>
+        </tr>
+        <tr>
+            <td>general sibling selector (~)</td>
+            <td>The general sibling selector matches all elements that are siblings of a specified element</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
